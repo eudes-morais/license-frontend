@@ -1,15 +1,15 @@
 <template>
     <div v-if="currentAgency" class="edit-form">
-      <h4>Agency</h4>
+      <h4>Órgão</h4>
       <form>
         <div class="form-group">
-          <label for="acronym">Acronym</label>
+          <label for="acronym">Sigla</label>
           <input type="text" class="form-control" id="acronym"
             v-model="currentAgency.acronym"
           />
         </div>
         <div class="form-group">
-          <label for="description">Description</label>
+          <label for="description">Descrição</label>
           <input type="text" class="form-control" id="description"
             v-model="currentAgency.description"
           />

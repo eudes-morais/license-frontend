@@ -100,7 +100,7 @@
           });
       },
       
-      searchTitle() {
+      searchAcronym() {
         AgencyDataService.findByTitle(this.title)
           .then(response => {
             this.agencies = response.data;

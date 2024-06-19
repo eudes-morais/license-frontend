@@ -56,8 +56,6 @@
           acronym: this.agency.acronym,
           description: this.agency.description
         };
-
-        console.log(data)
   
         AgencyDataService.create(data)
           .then(response => {
